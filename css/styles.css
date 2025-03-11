@@ -1,0 +1,86 @@
+/*--------------------------
+BASE
+----------------------------*/
+
+
+html{
+
+    box-sizing: border-box;
+    font-size: 62.5%;
+}
+*,*:before,*:after{
+    box-sizing:inherit;
+}
+/*------------------------
+ÉLÉMENTS
+-------------------------*/
+
+body{
+    background-color: #E6EDF1;
+    font-family: "Roboto", sans-serif;
+    font-size: 1.8rem;
+    margin: 0;
+}
+a{
+    text-decoration: none;
+    color: black;
+}
+
+.wrapper{
+    max-width: 1171px;
+    margin: 0 auto;
+    
+}
+
+/*------------------
+COMPONENTS
+-------------------*/
+
+/*--header--*/
+
+header{
+    background-color: #379AE3;
+  position: fixed;
+  width: 100%;
+  top: 0;
+  z-index: 1;
+    
+}
+
+header .wrapper{
+    
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+header ul{
+    display: flex;
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    gap: 40px;
+    font-weight: bold;
+    
+}
+header a:hover{
+    color: #E6EDF1;
+}
+
+.logo{
+    font:bold 2.4rem "Merriweather", serif;
+}
+
+.bouton{
+background-color:#E67522 ;
+border-radius: 5px;
+border: 2px  solid black;
+padding: 5px 25px;
+font-weight: bold;
+}
+.bouton:hover{
+    background-color: white;
+    color: black;
+}
+/*--hero--*/
+
