@@ -84,3 +84,95 @@ font-weight: bold;
 }
 /*--hero--*/
 
+.hero{
+    margin-top: 79px;
+
+    background: url(../images/hero.jpg) no-repeat center/cover ;
+    height: 637px;
+    width: 100%;
+    color: white;
+}
+h1{
+    color: #E67522;
+    font: bold 6.4rem "Merriweather", serif;
+    padding-top: 0;
+}
+
+.hero .wrapper{
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    height: 637px;
+}
+.contenu{
+    text-align: center;
+    background: rgba(0, 0, 0, 0.7);
+    padding: 0px 40px 40px;
+    border-radius: 40px;
+    width: 550px;
+}
+
+.contenu p {
+    padding-bottom: 40px;
+    font-size: 20px;
+    font-weight: bold;
+}
+
+/*--articale--*/
+.circuits{
+   text-align: center; 
+}
+
+.circuits p{
+    line-height:1.5 ;
+
+    
+}
+
+h2{
+    font: bold 6.4rem/1.15 "Merriweather", serif;
+    
+}
+
+ .description{
+    margin:  0 190px 100px ;
+
+}
+
+.circuits-parents{
+
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    gap :30px;
+}
+
+
+
+h3{
+    font: bold 3.6rem/1.08 "Merriweather", serif;
+}
+
+
+article  {
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+
+       
+}
+
+
+
+article .bouton{
+
+    align-self: center;
+    margin-top: auto;
+    margin-bottom: 35px;
+    
+  
+}
+
+article p{
+    padding:0  15px 40px;
+    margin: 0;
+}
