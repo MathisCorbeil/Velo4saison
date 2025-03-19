@@ -20,7 +20,11 @@ function openModale() {
 
     modale.classList.add('visible');
 
+    texte.addEventListener("click", closeModale);
   
 }
+function closeModale(event) {
+    modale.removeChild(event.target);
 
- console.log("patate");
+    modale.classList.remove('visible');
+}
