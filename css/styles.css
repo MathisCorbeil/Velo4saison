@@ -235,3 +235,32 @@ font-size:  60px;
    
     
  }
+
+ /*--modale--*/
+
+ p.zoom{
+    width: 800px;
+    height: 600px;
+    cursor: grab;
+    background-color: white;
+    padding: 30px;
+    border-radius: 10px;
+}
+
+div.modale{
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100vw;
+    height: 100vh;
+    z-index: 900;
+    background-color: rgba(0, 0, 0, 0.8);
+    display: none;
+    justify-content: center;
+    align-items: center;
+    font-size: 3rem;
+    text-align: center;
+}
+.modale.visible{
+    display: flex;
+}
